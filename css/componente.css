@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    background-color: #ECEAEC;
+    font-family: 'Quicksand', sans-serif;
+}
+.cont{
+  
+  
+    background-color: white;
+    margin-left: 5px;
+    border-radius: 10px;
+  
+    
+}
+.img1{
+    background:url(../assets/vestido.png);
+    background-size: contain;
+  
+    height:270px;
+    background-repeat: no-repeat;
+    margin-left: 60px;
+}
+.img2{
+    background:url(../assets/tshirt.png);
+    background-size: contain;
+  
+    height:270px;
+    background-repeat: no-repeat;
+    margin-left: 22px;
+}
+.img3{
+    background:url(../assets/chamarra.png);
+    background-size: contain;
+  
+    height:270px;
+    background-repeat: no-repeat;
+    margin-left: 55px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+    
+}
+.detail p{
+    margin: 5px;
+}
+.description{
+    margin: 0px 15px;
+    margin-bottom: 10px;
+    
+}
+.description p{
+    margin: 5px;
+}
+.share{
+    margin: 0px 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+    
+}
+.share p{
+    margin: 5px;
+}
+.share button{
+    border-radius: 8px;
+    background-color: rgb(94, 94, 248);
+    border: none;
+
+}
+.share button:hover{
+    background-color: #235789;
+    cursor: pointer;
+}
+.new{
+    background-color: #F2404C;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px 15px 2px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.price{
+    color: green;
+    font-weight: bold;
+}
