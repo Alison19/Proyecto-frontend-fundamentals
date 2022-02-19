@@ -73,6 +73,7 @@ body{
     border-radius: 8px;
     background-color: rgb(94, 94, 248);
     border: none;
+    color: white;
 
 }
 .share button:hover{
@@ -86,6 +87,7 @@ body{
     margin: 10px 15px 2px;
     border-radius: 10px;
     font-weight: bold;
+    color: white;
 }
 .price{
     color: green;
